@@ -1,0 +1,99 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #b22222;
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        nav {
+            background-color: #800000;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background-color: #333;
+            background-size: cover;
+            background-position: center;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 1rem 1rem;
+        }
+        .hero h1 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .contenido {
+            text-align: center;
+            max-width: 1000px;
+            margin: 1.5rem auto;
+            padding: 0 1rem;
+        }
+        .producto {
+            background: white;
+            margin-bottom: 2rem;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .producto h2 {
+            margin-top: 0;
+        }
+        footer {
+            background-color: #800000;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        .compras {
+            position: absolute;
+            width: 40px;
+            right: 10px;
+            top: 10px;
+        }
+        .LOGOBOMBEROS {
+            position: absolute;
+            left: 10px;
+            top: 0px;
+            width: 100px;
+        }
+    .galeria {
+
+  text-align: center;
+}
+
+.galeria h2 {
+  color: #b22222;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.grid-galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.grid-galeria img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+nav a:hover {
+            text-decoration: underline;
+        }
