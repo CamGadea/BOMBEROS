@@ -74,9 +74,9 @@
             border-width: 5px;
             border-color:#333;
             border-radius: 20px;
-            right: 26%;
+            right: 18%;
             width: 150px;
-            top: 27%;
+            top: 40%;
         }
         .Botiquin {
             border-style: solid;
@@ -84,9 +84,9 @@
             border-width: 5px;
             border-color:#333;
             border-radius: 20px;
-            right: 26%;
+            right: 18%;
             width: 150px;
-            top: 70%;
+            top: 102%;
         }
         .Alimentos {
             border-style: solid;
@@ -94,9 +94,9 @@
             border-width: 5px;
             border-color:#333;
             border-radius: 20px;
-            right: 26%;
+            right: 18%;
             width: 150px;
-            top: 49%;
+            top: 70%;
         }
         nav a:hover {
             text-decoration: underline;
